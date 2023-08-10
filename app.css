@@ -3,3 +3,48 @@
     padding: 0;
 }
 body { background-image:url(images/bg.avif);}
+header {
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    background-color: bisque;
+    justify-content: center;
+}
+
+header h1{
+    color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+form div label{
+    background-color: rgb(124, 118, 129);
+    color: aliceblue;
+    padding: 8px;
+    font-size: 14px;
+}
+form div input {display:flex;
+    justify-content: flex-end;
+    gap:30px;
+    padding: 5px;
+    margin: 10px;
+    background-color: aquamarine;
+    max-width:500px ;
+    border: 1px solid blue;
+    border-radius: 12px;
+}
+button {
+    color: greenyellow;
+    background-color: blue;
+    width: 60px;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
